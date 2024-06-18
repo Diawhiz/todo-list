@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121212;
+}
+
+.main {
+    background-color: #136aac;
+    margin: 5% 20% 0 20%;
+    padding: 50px;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.main h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#input-box {
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 40%;
+    outline: 0;
+    background: whitesmoke;
+    color: #008000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#add-button {
+    background-color: #008000;
+    padding: 15px;
+    width: 80px;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin-left: -50px;
+}
+
+#warning {
+    color: red;
+    display: none;
+    /* font-size: 12px; */
+}
+
+.todo {
+    display: block;
+    padding: 5px;
+    margin: 5% 25% 0 25%;
+}
+
+.todo h2 {
+    text-transform: capitalize;
+    margin-top: 2%;
+}
+
+#todo {
+    list-style: circle;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+li {
+    padding: 5px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list #check {
+    display: flex;
+    align-items: center;
+}
+
+.list #delete span i {
+    color: #ff0000;
+}
+
+.list #check span i {
+    color: #fff;
+}

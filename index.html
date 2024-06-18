@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+        <!-- create a container for the todo list -->
+    <div class="main">
+        <h2>Todo-list</h2>
+        <form action="">
+            <input type="text" id="input-box" placeholder="Add Tasks">
+            <button id="add-button">Add</button>
+        </form>
+        <p id="warning">Please write down a task</p>
+
+        <div class="todo">
+            <h4>My Todo-list</h4>
+
+            <ul id="list-container"> 
+                <div class="list">
+                    <div id="check">
+                        <span><i class="far fa-circle fa-lg" aria-hidden="true"></i></span> <li>baller</li>
+                    </div>
+                    <div id="delete">
+                        <span><i class="fa fa-x fa-lg" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
